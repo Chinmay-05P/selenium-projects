@@ -1,0 +1,20 @@
+<suite name="Regression Test Suite">
+	<test name="Application test1 ">
+		<classes>
+			<class name="testclasses.Test1">
+				<methods>
+					<include name="register"/>
+					<include name="login"/>
+					<include name="openNewAccount"/>
+					<include name="accountsOverview"/>
+					<include name="transferFunds"/>
+					<include name="billPayment"/>
+					<include name="findTransaction"/>
+					<include name="updateProfile"/>
+					<include name="requestLoan"/>
+					<include name="logOut"/>
+				</methods>
+			</class>	
+		</classes>
+	</test>
+</suite>
